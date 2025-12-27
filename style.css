@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #fdf6f0, #fdecef);
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+}
+
+#date {
+  text-align: center;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 22px;
+  margin: 22px 0;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+textarea {
+  min-height: 90px;
+  resize: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fdecef;
+  padding: 10px 14px;
+  border-radius: 12px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+li:hover {
+  opacity: 0.8;
+}
+
+.moods button {
+  font-size: 26px;
+  margin: 6px;
+  border: none;
+  background: #fff0f3;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.moods button:hover {
+  transform: scale(1.1);
+}
+
+.water span {
+  font-size: 26px;
+  margin-right: 6px;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: opacity 0.2s ease;
+}
+
+.water span.active {
+  opacity: 1;
+}
